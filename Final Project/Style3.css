@@ -28,3 +28,22 @@ nav ul{
 	margin-left: 20px;
 }
 
+.bg-light {
+    background-color: grey!important;
+ }
+
+ i.fas.fa-globe-europe.fa-2x{
+ 	color:white;
+ }
+
+.btn-outline-success {
+    color: white;
+    border-color: white;
+}
+li.nav-item,.navbar-light .navbar-nav .active>.nav-link{
+	font-family:'Big Shoulders Display';
+	color: white;
+}
+.navbar-light .navbar-nav .nav-link{
+	color:#d6d6d6;
+}
