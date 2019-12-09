@@ -9,6 +9,8 @@ h3, h1 {
 h1 {
 	font-size: 100px; 
 	font-family: 'Big Shoulders Display';
+	text-shadow: 4px 0px black;
+	color: grey;
 }
 
 h3 {
@@ -25,3 +27,4 @@ h3 {
 nav ul{
 	margin-left: 20px;
 }
+
