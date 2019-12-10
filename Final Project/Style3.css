@@ -57,8 +57,38 @@ li.nav-item,.navbar-light .navbar-nav .active>.nav-link{
 }
 
 
-
 div#half.col-6{
 	width:50%;
+}
+
+
+div#half.col{
+	width: 47%;
 	display: inline;
+}
+
+
+p, h2 {
+	font-family: 'Gupter', serif;
+	text-align: center;
+}
+
+img.fluid {
+    width: 100%;}
+
+div#grayness.row {
+	background-color: gray;
+	color: white;
+	padding: 10px
+}
+
+div#greeny.row {
+	background-color: #d0d5d4;
+	padding: 10px
+}
+
+
+img#grayscale {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
