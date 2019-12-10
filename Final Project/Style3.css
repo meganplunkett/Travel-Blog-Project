@@ -82,5 +82,13 @@ div#grayness.row {
 	padding: 10px
 }
 
+div#greeny.row {
+	background-color: #d0d5d4;
+	padding: 10px
+}
 
 
+img#grayscale {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
