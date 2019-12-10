@@ -76,7 +76,11 @@ p, h2 {
 img.fluid {
     width: 100%;}
 
-
+div#grayness.row {
+	background-color: gray;
+	color: white;
+	padding: 10px
+}
 
 
 
