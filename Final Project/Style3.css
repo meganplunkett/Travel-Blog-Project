@@ -57,11 +57,8 @@ li.nav-item,.navbar-light .navbar-nav .active>.nav-link{
 }
 
 
-img.blogimg{
-	width: 50%;
-	height: auto;
-}
-div#half.col{
+
+div#half.col-6{
 	width:50%;
 	display: inline;
 }
