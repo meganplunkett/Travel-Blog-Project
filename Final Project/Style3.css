@@ -58,10 +58,25 @@ li.nav-item,.navbar-light .navbar-nav .active>.nav-link{
 
 
 img.blogimg{
-	width: 50%;
+	width: 100%;
 	height: auto;
 }
+
 div#half.col{
-	width:50%;
+	width: 47%;
 	display: inline;
 }
+
+
+p, h2 {
+	font-family: 'Gupter', serif;
+	text-align: center;
+}
+
+img.fluid {
+    width: 100%;}
+
+
+
+
+
