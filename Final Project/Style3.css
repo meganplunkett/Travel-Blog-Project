@@ -2,9 +2,9 @@ h3, h1 {
 	text-align: center;
 }
 
-.row {
+/*.row {
 	display: block;
-}
+}*/
 
 h1 {
 	font-size: 100px; 
@@ -58,7 +58,6 @@ div#half.col-6{
 	width:50%;
 }
 
-
 /*div#half.col{
 	width: 47%;
 	display: inline;
@@ -74,28 +73,13 @@ img.fluid {
     padding-bottom: 20px
 }
 
-div#grayness.row {
-	background-color: gray;
-	color: white;
-	padding: 20px
-}
+
 
 div#greeny.row {
 	background-color: #d0d5d4;
 	padding: 20px
 }
 
-div#brown.row {
-	background-color: #7d7370;
-	color: white;
-	padding: 20px
-}
-
-div#bremen {
-	background-color: #7d5e4e;
-	color: white;
-	padding: 20px
-}
 
 img#grayscale {
   -webkit-filter: grayscale(100%);
