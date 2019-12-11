@@ -59,10 +59,10 @@ div#half.col-6{
 }
 
 
-div#half.col{
+/*div#half.col{
 	width: 47%;
 	display: inline;
-}
+}*/
 
 p, h2 {
 	font-family: 'Gupter', serif;
@@ -70,7 +70,8 @@ p, h2 {
 }
 
 img.fluid {
-    width: 100%;}
+    width: 100%;
+}
 
 div#grayness.row {
 	background-color: gray;
