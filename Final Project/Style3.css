@@ -89,3 +89,12 @@ img#grayscale {
 .container {
 	padding-top: 30px;
 }
+
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
