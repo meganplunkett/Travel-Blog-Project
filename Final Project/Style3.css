@@ -71,6 +71,7 @@ p, h2 {
 
 img.fluid {
     width: 100%;
+    padding-bottom: 20px
 }
 
 div#grayness.row {
@@ -81,12 +82,6 @@ div#grayness.row {
 
 div#greeny.row {
 	background-color: #d0d5d4;
-	padding: 20px
-}
-
-div#idkk.row {
-	background-color: #74393a;
-	color: white;
 	padding: 20px
 }
 
