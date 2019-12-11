@@ -75,7 +75,8 @@ var content = {
                   "title": "HANNOVER",
                   "url": "bp6.html"
             }
-        ],
+     ] }
+
 
         /*
         "pw.html" : {
@@ -125,7 +126,7 @@ var content = {
         },
 
         */
-}
+
 
 
 for(var i=0; i<content.navbar.length; i++){ 
@@ -136,20 +137,7 @@ for(var i=0; i<content.navbar.length; i++){
       }
 
 
-console.log(window.location);
-console.log(window.location.pathname);
-var pagefile = window.location.pathname.split ("/").pop();
-console.log(pagefile);
-//jumbotron();
-/*if (content[pagefile] != ""){*/
 
-var blocks = content[pagefile].blocks;
-console.log(blocks);
-for(var i=0; i<blocks.length; i++){
-    if(blocks[i].type == 'jumbotron') {
-
-       jumbotron(blocks[i]); 
-    }
-}
-    
  });
+
+
