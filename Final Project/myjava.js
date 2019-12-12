@@ -50,19 +50,21 @@ for(var i=0; i<content.navbar.length; i++){
       $("#mynav").append('<li class="nav-item"><a class="nav-link" href="'+content.navbar[i].url+'">'+ content.navbar[i].title +'</a></li>')
       }
 
-const loadGoogleMapsApi = require('load-google-maps-api')
- 
-loadGoogleMapsApi().then(function (googleMaps) {
-  new googleMaps.Map(document.querySelector('.map'), {
-    center: {
-      lat: 40.7484405,
-      lng: -73.9944191
-    },
-    zoom: 12
-  })
-}).catch(function (error) {
-  console.error(error)
-})
+// JavaScript code 
+function search_place() { 
+    let input = document.getElementsByClassName('form-control mr-sm-2').value 
+    input=input.toLowerCase(); 
+    let x = document.getElementsByClassName('nav-item'); 
+      
+    for (i = 0; i < x.length; i++) {  
+        if (!x[i].innerHTML.toLowerCase().includes(input)) { 
+            x[i].style.display="none"; 
+        } 
+        else { 
+            x[i].style.display="title";                  
+        } 
+    } 
+} 
 
  });
 
