@@ -25,9 +25,21 @@ h3 {
 	margin: 0 auto;
 }
 
-
+#bigger {
+	font-size: 20px
+}
 nav ul{
 	margin-left: 20px;
+}
+
+ul {
+  list-style-type: none;
+  font-family: 'Gupter', serif;
+	text-align: center;
+}
+
+div.card {
+	width: 30%;
 }
 
 .bg-light {
